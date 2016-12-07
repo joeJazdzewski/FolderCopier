@@ -1,0 +1,23 @@
+{
+  "name": "filecopier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/joeJazdzewski/filecopier.git" 
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "es2016"
+  ],
+  "author": "Joseph Jazdzewski",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7"
+  }
+}
